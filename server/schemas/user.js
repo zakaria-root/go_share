@@ -10,12 +10,8 @@ export default {
     },
     {
       name: "image",
-      type: "image",
-      title: "userImage",
-      options: {
-       hotspot: true // <-- Defaults to false
-     },
+      type: "string",
+      title: "Image",
     },
   ],
 }
-
